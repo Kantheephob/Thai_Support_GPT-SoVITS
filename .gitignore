@@ -1,0 +1,27 @@
+# 1. Environment Variables (Secret Keys)
+.env
+
+# 2. Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# 3. Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Large Data Files
+Data/toki_rag_chunks.json
+Fine_Tune_Model_Weights/
+
+# 5. OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Private Folder
+Toki-Voice-Data/
+GPT_SoVITS_Dataset/*.wav
+
+readme.md
